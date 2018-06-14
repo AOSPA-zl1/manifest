@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="manifest" remote="voron" groups="aospa" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
-  <project path="build" name="AOSPA/android_build" remote="aospa" groups="aospa" >
+  <project path="build" name="android_build" remote="voron" groups="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
@@ -25,7 +25,7 @@
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
-  <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="voron" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
@@ -49,11 +49,11 @@
 
   <!-- Frameworks -->
   <!-- <remove-project name="platform/frameworks/av" /> -->
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="voron" groups="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="voron" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="voron" groups="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -123,11 +123,11 @@
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
+  <project path="external/skia" name="android_external_skia" remote="voron" groups="aospa" />
   <remove-project name="platform/external/jemalloc" />
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="voron" groups="aospa" />
   <remove-project name="platform/external/webp" />
   <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/webrtc" />
@@ -137,9 +137,9 @@
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
+  <project path="system/bt" name="android_system_bt" remote="voron" groups="aospa" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <project path="system/core" name="android_system_core" remote="voron" groups="aospa" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
@@ -152,11 +152,11 @@
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
+  <project path="vendor/pa" name="android_vendor_pa" remote="voron" groups="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="voron" groups="aospa" />
   <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->

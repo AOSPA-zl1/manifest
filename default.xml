@@ -21,6 +21,10 @@
            fetch="https://github.com/ThankYouMario"
            revision="nougat-mr2"/>
 
+  <remote  name="voron"
+           fetch="https://github.com/voron00"
+           revision="nougat-mr2"/>
+
   <remote  name="github"
            fetch="https://github.com"/>
 
