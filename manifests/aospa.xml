@@ -34,6 +34,8 @@
   <project path="external/libvpx" name="platform/external/libvpx" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08200-89xx.0" groups="aospa" />
   <remove-project name="platform/external/aac" />
   <project path="external/aac" name="platform/external/aac" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08200-89xx.0" groups="aospa" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08200-89xx.0" groups="aospa" />
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
