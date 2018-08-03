@@ -54,10 +54,6 @@
   <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
-  <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
@@ -68,7 +64,7 @@
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa"/>
 
   <!-- Frameworks -->
-  <!-- <remove-project name="platform/frameworks/av" /> -->
+  <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="voron" groups="aospa" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="voron" groups="aospa" />
@@ -163,7 +159,7 @@
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
-  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
+  <project path="system/media" name="android_system_media" remote="voron" groups="aospa" />
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
@@ -245,4 +241,3 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
 
 </manifest>
-
