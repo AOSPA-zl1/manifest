@@ -40,7 +40,9 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
-
+  <remove-project name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
+  
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
