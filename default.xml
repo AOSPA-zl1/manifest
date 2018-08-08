@@ -22,7 +22,7 @@
            revision="nougat-mr2"/>
 
   <remote  name="voron"
-           fetch="https://github.com/voron00"
+           fetch="https://github.com/AOSPA-zl1"
            revision="nougat-mr2"/>
 
   <remote  name="github"
