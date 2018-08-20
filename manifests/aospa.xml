@@ -46,6 +46,8 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="platform/external/libcxx" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" remote="caf" revision="refs/tags/LA.UM.5.6.r1-08900-89xx.0" groups="aospa" />
   
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
@@ -238,7 +240,6 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.4"/>
   <remove-project name="device/generic/x86_64"/>
