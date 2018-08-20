@@ -54,10 +54,6 @@
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="voron" groups="aospa" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
-  <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
-  <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="android_hardware_ril" remote="voron" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
@@ -232,10 +228,12 @@
   <remove-project name="platform/vendor/qcom/titanium_32"/>
   <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/bt"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="platform/hardware/qcom/wlan"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.4"/>
   <remove-project name="device/generic/x86_64"/>
