@@ -138,8 +138,6 @@
   <project path="external/gemmlowp" name="AOSPA/android_external_gemmlowp" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/iproute2" />
   <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" groups="aospa" />
-  <remove-project name="platform/external/vulkan-validation-layers" />
-  <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libunwind_llvm" />
@@ -152,8 +150,6 @@
   <project path="external/skia" name="android_external_skia" remote="voron" groups="aospa" />
   <remove-project name="platform/external/jemalloc" />
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
-  <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="voron" groups="aospa" />
   <remove-project name="platform/external/webp" />
   <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/webrtc" />
