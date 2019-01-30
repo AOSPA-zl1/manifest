@@ -24,6 +24,10 @@
   <!-- More secure stuff -->
   <remove-project name="platform/external/curl" />
   <project path="external/curl" name="platform/external/curl" remote="caf" revision="refs/tags/LA.UM.5.5.r1-09000-8x96.0" groups="aospa" />
+  <remove-project name="platform/external/neven" />
+  <project path="external/neven" name="platform/external/neven" remote="caf" revision="refs/tags/LA.UM.5.5.r1-09000-8x96.0" groups="aospa" />
+  <remove-project name="platform/external/libxml2" />
+  <project path="external/libxml2" name="platform/external/libxml2" remote="caf" revision="refs/tags/LA.UM.5.5.r1-09000-8x96.0" groups="aospa" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="caf" revision="refs/tags/LA.UM.5.5.r1-09000-8x96.0" groups="aospa" />
   <remove-project name="platform/external/libhevc" />
